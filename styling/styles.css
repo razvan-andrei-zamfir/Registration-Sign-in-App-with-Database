@@ -81,3 +81,27 @@ form {
 .redirect-text {
     font-weight: 500;
 }
+
+/* MOBILE RESPONSIVENESS RULES */
+
+@media only screen and (max-width: 992px) {
+    .right-side {
+        display: none;
+    }
+    .left-side {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .left-side-container {
+        transform: scale(90%);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .left-side-container {
+        transform: scale(80%);
+    }
+}
